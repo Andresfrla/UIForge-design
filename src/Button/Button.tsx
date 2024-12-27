@@ -7,15 +7,15 @@ const button = cva(
   {
     variants: {
       variant: {
-        default: "bg-slate-500 text-white font-bold hover:bg-slate-500/90",
-        primary: "bg-blue-500 text-white font-bold hover:bg-blue-500/90",
-        success: "bg-green-500 text-white hover:bg-green-500/80",
-        warning: "bg-orange-400 text-white hover:bg-orange-400/80",
-        danger: "bg-red-600 text-white hover:bg-red-600/80",
-        ghost: "hover:bg-slate-400 hover:text-white"
+        default: "bg-blue-400 text-white font-bold hover:bg-blue-300",
+        primary: "bg-blue-600 text-white font-bold hover:bg-blue-500",
+        success: "bg-lime-500 text-white font-bold hover:bg-lime-400",
+        warning: "bg-yellow-500 text-black font-bold hover:bg-yellow-400",
+        danger: "bg-red-500 text-white font-bold hover:bg-red-400",
+        ghost: "hover:bg-gray-100 hover:text-gray-700"
       },
       outline: {
-        true: "border border-input bg-transparent text-slate-600 hover:bg-slate-400 hover:text-white"
+        true: "border border-input bg-transparent text-gray-600 hover:bg-gray-100 hover:text-gray-800"
       },
       rounded: {
         basic: "rounded-none",
@@ -30,18 +30,28 @@ const button = cva(
         md: "h-11 px-8 text-lg",
         lg: "h-14 px-12 text-lg",
         full: "h-16 px-14 w-full text-2xl"
+      },
+      shadow: {
+        true: "shadow-md hover:shadow-lg",
+        false: "shadow-none"
+      },
+      enabled: {
+        true: "",
+        false: "opacity-50 pointer-events-none"
       }
     },
     compoundVariants: [
-      { variant: "primary", outline: true, className: "border-blue-500 hover:bg-blue-500" },
-      { variant: "success", outline: true, className: "border-green-500 hover:bg-green-500" },
-      { variant: "warning", outline: true, className: "border-orange-400 hover:bg-orange-400" },
-      { variant: "danger", outline: true, className: "border-red-600 hover:bg-red-600" }
+      { variant: "primary", enabled: false, className: "bg-gray-300 text-gray-500" },
+      { variant: "success", enabled: false, className: "bg-gray-300 text-gray-500" },
+      { variant: "warning", enabled: false, className: "bg-gray-300 text-gray-500" },
+      { variant: "danger", enabled: false, className: "bg-gray-300 text-gray-500" }
     ],
     defaultVariants: {
       variant: "default",
       size: "md",
-      rounded: "md"
+      rounded: "md",
+      shadow: false,
+      enabled: true
     }
   }
 );
@@ -49,9 +59,14 @@ const button = cva(
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof button> {}
 
 export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ children, className, variant, size, rounded, outline, ...props }, ref) => {
+  ({ children, className, variant, size, rounded, outline, shadow, enabled = true, ...props }, ref) => {
     return (
-      <button className={cn(button({ variant, size, rounded, outline, className }))} {...props} ref={ref}>
+      <button
+        className={cn(button({ variant, size, rounded, outline, shadow, enabled, className }))}
+        disabled={!enabled}
+        {...props}
+        ref={ref}
+      >
         {children}
       </button>
     );
