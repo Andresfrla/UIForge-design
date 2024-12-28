@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Andresfrla/UIForge-design/compare/v1.1.0...v2.0.0) (2024-12-27)
+
+
+### Features
+
+* **input types:** adding new feature of the input ([0a12b95](https://github.com/Andresfrla/UIForge-design/commit/0a12b95b0caf4cf00e5c290087d1e45f3852d51d))
+
+
+### BREAKING CHANGES
+
+* **input types:** Adding Input
+
 # [1.1.0](https://github.com/Andresfrla/UIForge-design/compare/v1.0.1...v1.1.0) (2024-12-27)
 
 
