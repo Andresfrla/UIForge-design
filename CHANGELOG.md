@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Andresfrla/UIForge-design/compare/v2.0.0...v2.0.1) (2024-12-28)
+
+
+### Performance Improvements
+
+* **avatar:** add new componente Avatar ([036f2ce](https://github.com/Andresfrla/UIForge-design/commit/036f2ce987fcb1f3d82460a92ada93627bbd2dd2))
+
 # [2.0.0](https://github.com/Andresfrla/UIForge-design/compare/v1.1.0...v2.0.0) (2024-12-27)
 
 
