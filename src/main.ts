@@ -5,3 +5,4 @@ export {Stack} from './Stack/Stack';
 export {Text} from './Text/Text';
 export { Input } from './Input/Input';
 export { Chip } from './Chip/Chip';
+export { AlertList } from './Alert/Alert';
