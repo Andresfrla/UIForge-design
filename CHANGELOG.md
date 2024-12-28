@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Andresfrla/UIForge-design/compare/v2.0.1...v2.1.0) (2024-12-28)
+
+
+### Features
+
+* **alert:** create alert component ([afd28b9](https://github.com/Andresfrla/UIForge-design/commit/afd28b98ca3a901f293c67a8376e7319af59fb0a))
+
 ## [2.0.1](https://github.com/Andresfrla/UIForge-design/compare/v2.0.0...v2.0.1) (2024-12-28)
 
 
