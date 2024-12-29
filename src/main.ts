@@ -9,3 +9,4 @@ export { AlertList } from './Alert/Alert';
 export { Loader } from './Loader/Loader';
 export { Card } from './Card/Card';
 export { Grid } from './Grid/Grid';
+export { Container } from './Container/Container';
