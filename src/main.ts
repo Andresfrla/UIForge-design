@@ -7,3 +7,4 @@ export { Input } from './Input/Input';
 export { Chip } from './Chip/Chip';
 export { AlertList } from './Alert/Alert';
 export { Loader } from './Loader/Loader';
+export { Card } from './Card/Card';
