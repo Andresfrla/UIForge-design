@@ -11,3 +11,4 @@ export { Card } from './Card/Card';
 export { Grid } from './Grid/Grid';
 export { Container } from './Container/Container';
 export { Slider } from './Slider/Slider';
+export { default as BottomNavigation } from './BottomNavigation/BottomNavigation';
