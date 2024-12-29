@@ -65,7 +65,7 @@ const StackComponent: Story = {
   render: ({ childrenQuantity, ...props }) => (
     <Stack {...props}>
       {[...Array(childrenQuantity).keys()].map(n => (
-        <div key={n} className="w-32 h-10 bg-red-400 flex items-center justify-center text-3xl font-bold">
+        <div key={n} className="w-32 h-10 bg-blue-400/20 flex items-center justify-center text-3xl font-bold">
           {n + 1}
         </div>
       ))}
