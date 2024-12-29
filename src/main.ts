@@ -10,3 +10,4 @@ export { Loader } from './Loader/Loader';
 export { Card } from './Card/Card';
 export { Grid } from './Grid/Grid';
 export { Container } from './Container/Container';
+export { Slider } from './Slider/Slider';
