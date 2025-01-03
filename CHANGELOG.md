@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/Andresfrla/UIForge-design/compare/v2.1.0...v2.2.0) (2024-12-29)
+
+
+### Features
+
+* **add navigation section:** add navigation components ([c5e0d3e](https://github.com/Andresfrla/UIForge-design/commit/c5e0d3e3cb8af5780b575bb024fad4ea2de9ab1f))
+
 # [2.1.0](https://github.com/Andresfrla/UIForge-design/compare/v2.0.1...v2.1.0) (2024-12-28)
 
 
