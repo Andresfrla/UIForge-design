@@ -13,3 +13,4 @@ export { Container } from './Container/Container';
 export { Slider } from './Slider/Slider';
 export { default as BottomNavigation } from './BottomNavigation/BottomNavigation';
 export { Breadcrumbs } from './Breadcrumbs/Breadcrumbs';
+export { Modal } from './Modal/Modal';
