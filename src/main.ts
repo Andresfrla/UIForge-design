@@ -17,3 +17,4 @@ export { Modal } from './Modal/Modal';
 export { Popover } from './Popover/Popover'
 export { Table } from './Table/Table';
 export { Checkbox } from './Checkbox/Checkbox'
+export { Skeleton } from './Skeleton/Skeleton'
