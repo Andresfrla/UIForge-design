@@ -15,3 +15,4 @@ export { default as BottomNavigation } from './BottomNavigation/BottomNavigation
 export { Breadcrumbs } from './Breadcrumbs/Breadcrumbs';
 export { Modal } from './Modal/Modal';
 export { Popover } from './Popover/Popover'
+export { Table } from './Table/Table';
