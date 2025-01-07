@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/Andresfrla/UIForge-design/compare/v2.2.0...v2.3.0) (2025-01-07)
+
+
+### Features
+
+* **checkbox:** create new Componente of checkbox ([c4f7bbf](https://github.com/Andresfrla/UIForge-design/commit/c4f7bbf12a5118edda201b0c0e80ff623fac1fa4))
+
 # [2.2.0](https://github.com/Andresfrla/UIForge-design/compare/v2.1.0...v2.2.0) (2024-12-29)
 
 
