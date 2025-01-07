@@ -16,5 +16,6 @@ export { Breadcrumbs } from './Breadcrumbs/Breadcrumbs';
 export { Modal } from './Modal/Modal';
 export { Popover } from './Popover/Popover'
 export { Table } from './Table/Table';
-export { Checkbox } from './Checkbox/Checkbox'
-export { Skeleton } from './Skeleton/Skeleton'
+export { Checkbox } from './Checkbox/Checkbox';
+export { Skeleton } from './Skeleton/Skeleton';
+export { RadioSelection } from './RadioSelection/RadioSelection';
